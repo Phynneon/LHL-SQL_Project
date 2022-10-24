@@ -4,8 +4,12 @@
 The goal of this project is to process the information in a database called ecommerce. We use the information to look for trend in the revenue and sales from the company. 
 
 ## Process
-### 1. Importing And Cleaning the Data
-### 2. Using Query to Find Trend in Sales and Revenue 
+### 1. Importing Data
+This step consists of taking data from CSV files and importing them into PgAdmin(after making tables in the database).
+### 2. Cleaning Data
+Takes out uneccesary data and Fix numbers that do not make sense. (Look out for data that are imcomplete and attempt to fill those).
+### 3. Using Query to Find Trend in Sales and Revenue 
+Finding trends in the revenue and sales section from each country/city in order to analyze the workings of the company to understand business decisions.
 
 ## Results
 From the data obtained in the Ecommerce Database, we are shown that the main customers that make purchases from the company comes from the United States. Revenue generated from sales in other countries is very insignificant compared to the revenue genereated in the United States. Within the United States, we are shown that different cities have different purchasing habits, such as Montain View buying a lot of Nest products, and Sunnyvale buying a lot of Housewares. 
