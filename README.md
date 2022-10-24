@@ -23,3 +23,4 @@ The main change I would make if I were given more time is to clean and process t
 - There are wrong country/city names that needs to be changed and missing city values that needs to be filled.  
 - Filter out or fix some values that does not make sense in the database, such as the visit_start_time from analytics table and time column in the all_sessions table.
 - There are a lot of products (~250) that have missing product categories. Those products needs to be properly categorized to provide a better understanding of the data. 
+- The ERD is not properly done because I was unable to clean up the tables enough to set up proper primary keys. This caused the constrain set up between tables to fail. Given enough time, I would set up proper primary keys and foreign keys/constraints.
